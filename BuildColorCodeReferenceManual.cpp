@@ -1,3 +1,5 @@
+#include <string.h>
+
 std::string BuildColorCodeReferenceManual() {
   std::string referenceManual;
   referenceManual = "\nCode\tMajor Color\tMinor Color";
