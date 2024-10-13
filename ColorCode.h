@@ -8,11 +8,11 @@ namespace TelCoColorCoder {
     enum MajorColor { WHITE, RED, BLACK, YELLOW, VIOLET };
     enum MinorColor { BLUE, ORANGE, GREEN, BROWN, SLATE };
 
-    extern const char* MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet" };
-    extern const char* MinorColorNames[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
+    extern const char* MajorColorNames[];
+    extern const char* MinorColorNames[];
 
-    int const numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-    int const numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+    int const numberOfMajorColors = 5;
+    int const numberOfMinorColors = 5;
 
     class ColorPair {
     private:
