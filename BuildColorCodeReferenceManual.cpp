@@ -1,6 +1,7 @@
 #include <string>
 #include "ColorMapping.h"
 
+//For building the ColorCodeReferenceManual
 std::string BuildColorCodeReferenceManual() {
   std::string referenceManual;
   referenceManual = "\nCode\tMajor Color\tMinor Color";
